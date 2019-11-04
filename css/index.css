@@ -75,7 +75,7 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	margin: 10px 0;
+	margin: 15px 0;
   }
 
   nav {
@@ -208,7 +208,6 @@ body {
 	width: 47%;
 	border: 1px solid grey;	
 	justify-content: space-between;
-	height: 100%;
 	padding: 20px;
 	background-color: lightgray;
 	margin-top: 20px;
@@ -307,6 +306,14 @@ ul {
 		margin: 40px 0;
 	}
 
+	.cards section {
+		width: 100%;
+	}
+
+	.features section {
+		width: 48%;
+	}
+
   }
   
   @media (max-width: 500px){
@@ -343,6 +350,12 @@ ul {
 	.box3 {
 		width: 100%;;
 	}
+
+	.features section {
+		width: 100%;
+	}
+
+
 
 
   }
